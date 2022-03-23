@@ -1,12 +1,31 @@
-/*body{
-    margin-top:0%;
-    margin-left: 60px;
-    background-image: url("../assets/Images/hawaii.jpg");
-    /*background-size:contain;*/
-    /*background-origin: content-box;*/
-    /*background-size: cover;
+
+body .hawaii{
+    background: url("../assets/Images/hawaii.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
     background-position: center;
-}*/
+}
+
+
+body .greece{
+    background: url("../assets/Images/greece.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    background-position: center;
+}
+
+body .iceland{
+    background: url("../assets/Images/iceland.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    background-position: center;
+}
 
 
 header{
@@ -24,12 +43,12 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f5ecec;
+    background-color: white;
 }
 
 nav ul {
  display: flex;
- background-color: #f5ecec;
+ background-color: white;
 }
 
 li a{
@@ -153,11 +172,6 @@ ul {
     font-size: 40px;
 }
 
-
-
-
-
-
 /* titulo de las cajas*/
 .iceland .servicios h3{
     color: black;
@@ -221,3 +235,4 @@ footer{
     width: 30px;
     height: 30px;
 }
+
