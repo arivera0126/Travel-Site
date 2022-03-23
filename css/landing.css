@@ -5,29 +5,32 @@ header{
     background-color: #f5ecec;
     display: flex;
 }
-
+/*menu de navegacion*/
 header nav{
     height: 40px;
     width: 1280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f5ecec;
+    background-color: #FFFFFF;
 }
 
 nav ul {
     display: flex;
-    background-color: #f5ecec;
+    background-color: #FFFFFF;
     margin-left: 50px;
     
 }
 
-li a{
+li a:hover{
     display: block;
     color: black;
     text-align: right;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #ce8838;
 }
+
+
 
 /* estilo para poner color al link cuando doy click*/
 li a:active{
