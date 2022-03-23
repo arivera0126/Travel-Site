@@ -1,12 +1,12 @@
-body{
+/*body{
     margin-top:0%;
     margin-left: 60px;
     background-image: url("../assets/Images/hawaii.jpg");
     /*background-size:contain;*/
     /*background-origin: content-box;*/
-    background-size: cover;
+    /*background-size: cover;
     background-position: center;
-}
+}*/
 
 
 header{

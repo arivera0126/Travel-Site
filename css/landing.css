@@ -6,7 +6,7 @@ header{
     display: flex;
 }
 /*menu de navegacion*/
-header nav{
+nav{
     height: 40px;
     width: 1280px;
     display: flex;
@@ -151,12 +151,15 @@ ul {
 }*/
 
 footer{
+    display: flex;
+    flex-direction: row;
     width: 100%;
     max-width: 1280px;
     height: 200px;
     background-color:#FEFAF5;
     position: fixed;
 }
+
 .logo{
     color: #335576;
     font-size: 15px;
@@ -180,16 +183,15 @@ button {
     width: 100%;
     max-width: 1280px;
     margin:auto;
-    padding: 40px;
+    padding: 20px;
     display: flex;
-    gap: 10px;
+    gap: 0px;
 }
 
 
 /* tamaño asignado a cada seccion del pie de pagina*/
 .contact{
     width: 20%;
-    
 }
 
 
