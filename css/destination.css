@@ -73,7 +73,7 @@ ul {
     align-content: center;
     
 }
-.menucito {
+.activities {
     text-align: center;
 }
 
@@ -120,6 +120,7 @@ ul {
     width: 200px;
     height: 300px;
     border-radius: 5px;
+    box-sizing: 1px;
     text-align: justify;
     padding:0vw;
     background-color: white;
@@ -159,21 +160,23 @@ ul {
 }
 .iceland h3{
     color: white;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .hawaii h3{
     color: white;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .greece h3{
     color: white;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 /* titulo de las cajas*/
 .iceland .servicios h3{
+    margin-top: auto;
+    font-size: 16px;
     color: black;
     text-align: center;
     border-bottom: 2px solid black;
@@ -182,6 +185,8 @@ ul {
 }
 
 .hawaii .servicios h3{
+    margin-top: auto;
+    font-size: 16px;
     color: black;
     text-align: center;
     border-bottom: 2px solid black;
@@ -190,6 +195,8 @@ ul {
 }
 
 .greece .servicios h3{
+    margin-top: auto;
+    font-size: 16px;
     color: black;
     text-align: center;
     border-bottom: 2px solid black;
