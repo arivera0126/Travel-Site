@@ -12,7 +12,7 @@ body .iceland{
 .iceland{
     width: 100%;
     max-width: 1268px;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
@@ -22,7 +22,8 @@ body .iceland{
 .iceland .servicios {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    flex-wrap: nowrap;
+    margin-top: 15%;
     width: 200px;
     height: 300px;
     border-radius: 5px;
@@ -60,7 +61,7 @@ body .greece{
 .greece{
     width: 100%;
     max-width: 1268px;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
@@ -69,10 +70,12 @@ body .greece{
 .greece .servicios {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    flex-wrap: nowrap;
+    margin-top: 15%;
     width: 200px;
     height: 300px;
     border-radius: 5px;
+    box-sizing: 1px;
     text-align: justify;
     padding:0vw;
     background-color: white;
@@ -106,7 +109,7 @@ body .hawaii{
 .hawaii{
     width: 100%;
     max-width: 1268px;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
@@ -115,10 +118,12 @@ body .hawaii{
 .hawaii .servicios {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    flex-wrap: nowrap;
+    margin-top: 15%;
     width: 200px;
     height: 300px;
     border-radius: 5px;
+    box-sizing: 1px;
     text-align: justify;
     padding:0vw;
     background-color: white;
@@ -191,3 +196,10 @@ footer{
     height: 30px;
 }
 
+.island{
+    display: flex;
+    flex-direction: column;
+}
+.island h3{
+    position: relative;
+}
