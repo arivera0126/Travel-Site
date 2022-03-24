@@ -145,11 +145,6 @@ ul {
     color: #335576;
 }
 
-/*.recomendation .servicios h3{
-    color: #335576;
-    text-align: right;
-}*/
-
 footer{
     display: flex;
     flex-direction: row;
